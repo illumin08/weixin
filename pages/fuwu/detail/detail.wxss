@@ -1,0 +1,13 @@
+.bt{
+  width: 48%;
+  float: left;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+
+  .tele{
+    margin-top: 90px;
+    border-top: 1rpx solid #ddd;
+    
+  }

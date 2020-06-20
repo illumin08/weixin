@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/top/top",
+    "pages/fenshuxian/fenshuxian",
+    "pages/zhuanye/zhuanye",
+    "pages/college/college",
+    "pages/school/school",
+    "pages/news/news",
+    "pages/zhaosheng/zhaosheng",
+    "pages/my/my",
+    "pages/test/test",
+    "pages/class/class",
+    "pages/teacher/teacher",
+    "pages/fuwu/fuwu",
+    "pages/index/index",
+    "pages/fuwu/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/top/top",
+        "text": "首页 ",
+        "iconPath": "pages/image/_home.png",
+        "selectedIconPath": "pages/image/home.png"
+      },
+      {
+        "pagePath": "pages/fuwu/fuwu",
+        "text": "服务 ",
+        "iconPath": "pages/image/fw  (1).png",
+        "selectedIconPath": "pages/image/fw  (2).png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测评",
+        "iconPath": "pages/image/_sc.png",
+        "selectedIconPath": "pages/image/sc.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "pages/image/fx.png",
+        "selectedIconPath": "pages/image/fx1.png"
+      }
+    ],
+    "selectedColor": "#1090D59",
+    "borderStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

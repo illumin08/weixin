@@ -1,0 +1,16 @@
+<view class="my">
+  <image src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1972102308,2340202080&fm=26&gp=0.jpg" class="img"></image>
+  <view class="name">用户名</view>
+</view>
+
+<view class="cube" >
+
+
+<view >1.电气工程与智能控制
+<navigator  style="font-size:15px;color:gray;float:right;margin-right:14px;margin-top:6px:font-weight:bold">></navigator></view>
+<view >2.航空航天工程
+<navigator  style="font-size:15px;color:gray;float:right;margin-right:14px;margin-top:6px:font-weight:bold">></navigator></view>
+<view >3.临床医学
+<navigator  style="font-size:15px;color:gray;float:right;margin-right:14px;margin-top:6px:font-weight:bold">></navigator></view>
+      
+    </view>

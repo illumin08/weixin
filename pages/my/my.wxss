@@ -1,0 +1,30 @@
+.my{
+  height: 80px;
+   background-color: floralwhite;
+}
+
+.img{
+  height: 50px;
+  width:50px;
+  border-radius: 75px;
+  float: left;
+  margin: 20px 20px;
+}
+
+.name{
+  float: left;
+   margin: 33px 7px;
+}
+
+.cube{
+  height: 150px;
+  background-color: floralwhite;
+  margin-top: 20px;
+  z-index: 2;
+}
+
+.cube view{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size:16px;
+}

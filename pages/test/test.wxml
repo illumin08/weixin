@@ -1,0 +1,64 @@
+<view style="margin-top:5px">
+ <image  src="/pages/image/123png.png">
+  <view class="top">专业定位测评</view>
+  <view class="boo">五大维度 15 分钟推荐适合你的职业</view>
+  <view class="fin">10799594人已完成</view>
+  <button  class="up" style="height:25px">开始测评</button>
+  </image>
+</view>
+ 
+ <view style="margin-top:40px;margin-left:8px;font-weight:bold;font-size:17px">学习状态</view>
+<view style="height:200px">
+ <view class="min">
+ <image style="z-index:1" src="/pages/image/111.png">
+ 
+ <view class="tit1" >考试心理和行为测试</view>
+  <view class="mon1" >考试总是发挥失常?</view>
+  <view class="icon1" >已有10799594人完成</view>
+
+  </image>
+ </view>
+
+ <view class="min">
+ <image style="z-index:1" src="/pages/image/111.png">
+ <view class="tit2" >学习拖延测评</view>
+  <view class="mon2" >提到学习就害怕?</view>
+  <view class="icon2" >已有10799594人完成</view>
+  </image>
+ </view>
+
+  <view class="min">
+ <image style="z-index:1" src="/pages/image/111.png">
+  <view class="tit3" >学习倦怠测评</view>
+  <view class="mon3" >提到学习就乏力?</view>
+  <view class="icon3" >已有10799594人完成</view>
+  </image>
+ </view>
+
+  <view class="min">
+ <image style="z-index:1" src="/pages/image/111.png">
+  <view class="tit4" >学习能力测评</view>
+  <view class="mon4" >成绩提升方法?</view>
+  <view class="icon4" >已有10799594人完成</view>
+  </image>
+ </view>
+</view>
+
+
+ <view style="margin-top:40px;margin-left:8px;font-weight:bold;font-size:17px">心理健康</view>
+ <view class="min">
+ <image style="z-index:1" src="/pages/image/111.png">
+  <view class="tit5" >家庭教育方式测评</view>
+  <view class="mon5" >青春的孩子应如何教育?</view>
+  <view class="icon5" >已有10799594人完成</view>
+  </image>
+ </view>
+
+
+<view class="min">
+ <image style="z-index:1" src="/pages/image/111.png">
+  <view class="tit6" >自我控制能力测评</view>
+  <view class="mon6" >测量对自己的行为的控制能力?</view>
+  <view class="icon6" >已有10799594人完成</view>
+  </image>
+ </view>

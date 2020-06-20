@@ -1,0 +1,265 @@
+
+
+
+<view class='ticket-container'>
+    <scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}"
+      scroll-top="{{scrollTop}}">
+      <!--Tab布局-->
+      <view class='title'>
+      
+        <view class="{{0 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='0'>
+          <text>讲堂</text>
+          <hr class="line-style"/>
+        </view>
+
+        <view class="{{1 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='1'>
+          <text>语文</text>
+          <hr class="line-style"/>
+        </view>
+        
+        <view class="{{2 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='2'>
+          <text>数学</text>
+          <hr class="line-style"/>
+        </view>
+     
+        <view class="{{3 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='3'>
+          <text>英语</text>
+          <hr class="line-style" />
+        </view>
+
+        <view class="{{4 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='4'>
+          <text>物理</text>
+          <hr class="line-style" />
+        </view>
+      
+         <view class="{{5 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='5'>
+          <text>化学</text>
+          <hr class="line-style" />
+          </view>
+      
+      <view class="{{6 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='6'>
+          <text>生物</text>
+          <hr class="line-style" />
+          </view>
+    
+      <view class="{{7 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='7'>
+          <text>政治</text>
+          <hr class="line-style" />
+          </view>
+    
+      <view class="{{8 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='8'>
+          <text>历史</text>
+          <hr class="line-style" />
+          </view>
+   
+      <view class="{{9 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='9'>
+          <text>地理</text>
+          <hr class="line-style" />
+          </view>
+   
+        
+      </view>
+      
+
+      <!--内容布局-->
+      <swiper class='swiper' bindchange='pagechange'  current='{{currentIndex}}'>
+
+    
+<swiper-item class='swiper'>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/12.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">省控线与批次线</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：11：54</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/5.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">服从专业调剂</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/10.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">分数线和投档线</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/9.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">分数清、专业清、专业级差区别</view>
+            <view style="font-size:12px;color:gray;margin-top:20px">时长： 0：11：54</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/8.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">专业级差</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/7.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">专业清</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/6.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">分数清</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：11：54</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/4.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">大小年现象</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/3.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">大类招生</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/2.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">本科提前批次</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+<view class="jt">
+    <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/1.jpg"></image>
+          <view class="kc">
+            <view style="margin-top:10px">录取批次</view>
+            <view style="font-size:12px;color:gray;margin-top:35px">时长： 0：07：44</view>
+          </view>
+</view>
+
+
+          
+        </swiper-item>
+
+
+
+        <swiper-item class='swiper'>
+          
+    
+           <view wx:for="{{firstList}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100009.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+        </swiper-item>
+
+        <swiper-item class='swiper' class='swiper'>
+        <view wx:for="{{secondList}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100510.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>     
+        </swiper-item>
+
+        <swiper-item class='swiper' class='swiper'>
+        <view wx:for="{{thirdList}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100113.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+        </swiper-item>
+        <swiper-item class='swiper' class='swiper'>
+        <view wx:for="{{fourList}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100235.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+        </swiper-item>
+
+        <swiper-item class='swiper'>
+        <view wx:for="{{List5}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100327.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+        
+        </swiper-item>
+
+         <swiper-item class='swiper'>
+         <view wx:for="{{List6}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100805.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+         
+        </swiper-item>
+
+         <swiper-item class='swiper'>
+            <view wx:for="{{List7}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100704.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+        </swiper-item>
+
+        <swiper-item class='swiper'>
+            <view wx:for="{{List8}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100606.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+        </swiper-item>
+<swiper-item class='swiper'>
+           <view wx:for="{{List9}}" wx:for-item="item" class='record-item'>
+           <view class="jt">
+           <image src="//staticv3.youzy.cn/ToB.PC/content/lessons/pics/100901.jpg"></image>
+            <view class='kc'>
+              <view>{{item.name}}</view>
+              <view style="font-size:12px;color:gray;margin-top:35px">课时：{{item.money}}</view>
+            </view>
+          </view>
+        </view>
+        </swiper-item>
+      </swiper>
+      
+    </scroll-view>
+</view>

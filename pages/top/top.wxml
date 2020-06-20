@@ -1,0 +1,321 @@
+
+<!-- <swiper autoplay interval="2000" circular indicator-dots>
+ <swiper-item> <image src="http://img3.youzy.cn/content/media/thumbs/p00212394.jpeg" /></swiper-item>
+ <swiper-item><image   src="http://img3.youzy.cn/content/media/thumbs/p00212971.jpeg" /></swiper-item>
+ <swiper-item><image   src="http://staticv2.youzy.cn/bBanner/pc/banner2.jpg" /></swiper-item> 
+ <swiper-item><image   src="http://staticv2.youzy.cn/bBanner/pc/banner3.jpg" /></swiper-item> 
+ <swiper-item><image   src="http://staticv2.youzy.cn/bBanner/pc/banner4.jpg" /></swiper-item> 
+</swiper> -->
+
+<image src="http://img3.youzy.cn/content/media/thumbs/p00212394.jpeg" style="width:100%;height:140px"></image>
+<view class="tit">公告</view>
+<swiper class="news" vertical="true" autoplay interval="2000" circular >
+ <swiper-item>快讯！2019年专业录取数据已更新至510+所学校</swiper-item>
+ <swiper-item>报考咨询</swiper-item>
+</swiper>
+ 
+
+<view class='ticket-container' >
+    <scroll-view scroll-y bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}"
+      scroll-top="{{scrollTop}}">
+      <!--Tab布局-->
+      <view class='title'>
+        <view class="{{0 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='0'>
+          <text>高考/模考总分</text>
+        
+        </view>
+        
+        <view class="{{1 == currentIndex ? 'title-sel-selected' : 'title-sel'}}" bindtap='titleClick' data-idx='1'>
+          <text>线差</text>
+         
+        </view>
+        
+      </view>
+ 
+      <!--内容布局-->
+      <form>
+      <swiper class='swiper' bindchange='pagechange' current='{{currentIndex}}'>
+        <swiper-item class='swiper'>
+         <input placeholder="输入高考/模考总分" type="text" > </input>
+     
+        </swiper-item>
+        <swiper-item class='swiper' class='swiper'>
+           <input placeholder="分" type="text" >分 </input>
+     
+        </swiper-item>
+       
+      </swiper>
+        </form>
+    </scroll-view>
+
+      <button class="sub">院校智能推荐</button>
+    
+</view>
+
+
+
+
+
+ <navigator url="/pages/college/college" class="icon" ><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/1.png"></image>
+ <view >找大学</view></navigator>
+ <navigator url="/pages/zhuanye/zhuanye" class="icon"><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/2.png"></image><view>查专业</view></navigator>
+ <view class="icon"><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/3.png"></image><view>看职业</view></view>
+ <view class="icon"><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/4.png"></image><view>提前批</view></view>
+ <navigator url="/pages/fenshuxian/fenshuxian" class="icon"><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/5.png"></image><view>分数线</view></navigator>
+ <navigator url="/pages/zhaosheng/zhaosheng" class="icon"><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/6.png"></image><view >招生计划</view></navigator>
+ <view class="icon"><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/7.png"></image><view>批次线</view></view>
+ <view class="icon"><image src="//staticv3-pre.youzy.cn/ToB.PC/images/tools/v2/4.png"></image><view>位次查询</view></view>
+
+
+ 
+ 
+
+
+
+  <view class="model">
+    <image src="/pages/image/13.png"></image>
+    <view class="r">
+    <view class="top" style="margin-top:15px;font-weight:bold;margin-left:15px">新高考选科</view> 
+     <view class="ment" style="margin-top:8px">大数据智能选科</view>
+    </view>
+    
+  </view>
+  <view class="model">
+  
+    <image src="/pages/image/14.png"></image>
+    <view class="r">
+    <button class="top" style="margin-top:7px" bindtap="gotoPage2" >专业定位测评</button>
+     <view class="ment" >五大维度推荐专业</view>
+   </view>
+    </view>
+
+
+  
+<view style="margin-bottom:20px;font:bold;font-size:18px;margin-left:8px;margin-top:50px">咨询师推荐服务
+<button class="more" bindtap="gotoPage1" style="">更多</button></view>
+
+<view class="teacher" style="margin-bottom:20px" >
+
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00212534.jpeg"></image>
+     <view class="name" >曹老师
+     <view style="font-size:10px;color:gray;float:left;margin-right:150px">从业10年</view>
+     </view>
+
+     <view class="menten">高级教师，从事高考填报志愿业务实践近10年.....</view>
+   
+   
+</view>
+
+<view class="fuwu" style="margin-bottom:30px" >
+
+     
+     <view class="name" >一对一专业解读与升学规划</view>
+     <view class="row" style="color:gray" >服务团队：专业解读与升学规划专家团队
+     <view style="color:blue;font-size:16px;margin-left:80px" >9660.00</view></view>
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00212351.jpeg"></image>
+   
+   
+</view>
+
+
+
+<view class="teacher" >
+
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00212537.jpeg"></image>
+     <view class="name" >张老师
+     <view style="font-size:10px;color:gray;float:left;margin-right:140px;margin-top:3px;">从业10年</view>
+     </view>
+
+     <view class="menten">高级教师，从事高考填报志愿业务实践10年，经验丰富，熟练掌握招生政策、投档录取规则.....</view>
+   
+   
+</view>
+<view class="fuwu" style="margin-bottom:30px" >
+
+     
+     <view class="name" >一对一专业解读与升学规划</view>
+     <view class="row" style="color:gray" >服务团队：专业解读与升学规划专家团队
+     <view style="color:blue;font-size:16px;margin-left:80px" >5660.00</view></view>
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00212353.jpeg"></image>
+   
+   
+</view>
+
+<view class="teacher" >
+
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00213061.jpeg"></image>
+     <view class="name" >古老师
+     <view style="font-size:10px;color:gray;float:left;margin-right:140px;margin-top:3px;">从业10年</view>
+     </view>
+
+     <view class="menten">毕业于西安理工大学，高校教师，参加大学招生工作近10年，专注从事高考填报志愿业务.....</view>
+   
+   
+</view>
+<view class="fuwu" style="margin-bottom:30px" >
+
+     <view class="name" >升学卡服务</view>
+     <view class="row" style="color:gray" >服务团队：专业解读与升学规划专家团队
+     <view style="color:blue;font-size:16px;margin-left:80px" >360.00</view></view>
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00212353.jpeg"></image>
+     
+</view>
+
+
+<view style="margin-bottom:20px;font:bold;font-size:18px;margin-left:8px">咨询师
+<navigator url="/pages/teacher/teacher" style="font-size:12px;color:gray;float:right;margin-right:14px;margin-top:6px">更多</navigator></view>
+
+
+  <view class="teacher" style="margin-top:20px">
+
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00212161.jpeg"></image>
+     <view class="name">孙老师
+     <view style="font-size:10px;color:gray;margin-right:140px;margin-top:3px;float:left">从业15年</view>
+     </view> 
+      <view class="bq" style="margin-left: 5px;width:46px">志愿填报</view>
+       <view class="bq" style="width: 46px;margin-left: 5px;">高招政策</view>
+       <view class="bq" style="   margin-left: 5px;width: 46px">学业规划</view>
+     
+ 
+</view>
+ 
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212356.jpeg"></image>
+     <view class="name">杜老师
+     <view style="font-size:10px;color:gray;margin-right:140px;margin-top:3px;float:left">从业20年</view>
+     </view> 
+     <view class="biaoqian">
+      <view class="bq" style="margin-left: 5px;width:46px">志愿填报</view>
+      <view class="bq" style="width: 46px;margin-left: 5px;">高招政策</view>
+      <view class="bq" style="   margin-left: 5px;width:46px">心理咨询</view>
+      <view class="bq" style="   margin-left: 5px;width: 46px">学业规划</view>
+     
+     </view>
+   
+</view>
+
+   <view class="teacher" >
+
+     <image src="http://img3.youzy.cn/content/media/thumbs/p00212358.jpeg"></image>
+     <view class="name">杨老师
+     <view style="font-size:10px;color:gray;margin-right:140px;margin-top:3px;float:left">从业15年</view>
+     </view> 
+     <view class="biaoqian">
+      <view class="bq" style="margin-left: 5px;width:46px">志愿填报</view>
+      <view class="bq" style="width: 46px;margin-left: 5px;">高招政策</view>
+      <view class="bq" style="   margin-left: 5px;width: 46px">学业规划</view>
+     
+     </view>
+   
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00213061.jpeg"></image>
+     <view class="name">古老师
+     <view style="font-size:10px;color:gray;margin-right:140px;margin-top:3px;float:left">从业10年</view>
+     </view> 
+     <view class="biaoqian">
+      <view class="bq" style="margin-left: 5px;width:46px">志愿填报</view>
+      <view class="bq" style="width: 46px;margin-left: 5px;">高招政策</view>
+      <view class="bq" style="   margin-left: 5px;width:46px">心理咨询</view>
+      <view class="bq" style="   margin-left: 5px;width: 46px">学业规划</view>
+     
+     </view>
+   
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212537.jpeg"></image>
+     <view class="name">张老师
+     <view style="font-size:10px;color:gray;margin-right:140px;margin-top:3px;float:left">从业10年</view>
+     </view> 
+     <view class="biaoqian">
+      <view class="bq" style="margin-left: 5px;width:46px">志愿填报</view>
+      <view class="bq" style="width: 46px;margin-left: 5px;">高招政策</view>
+      <view class="bq" style="   margin-left: 5px;width:46px">心理咨询</view>
+      <view class="bq" style="   margin-left: 5px;width: 46px">学业规划</view>
+     
+     </view>
+   
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212534.jpeg"></image>
+     <view class="name">曹老师
+     <view style="font-size:10px;color:gray;margin-right:140px;margin-top:3px;float:left">从业10年</view>
+     </view> 
+     <view class="biaoqian">
+      <view class="bq" style="margin-left: 5px;width:46px">志愿填报</view>
+      <view class="bq" style="width: 46px;margin-left: 5px;">高招政策</view>
+      <view class="bq" style="   margin-left: 5px;width:46px">心理咨询</view>
+      <view class="bq" style="   margin-left: 5px;width: 46px">学业规划</view>
+     
+     </view>
+   
+</view>
+
+<view style="margin-bottom:20px;font:bold;font-size:18px;margin-left:10px">讲堂
+<navigator url="/pages/class/class" style="font-size:12px;color:gray;float:right;margin-right:14px;margin-top:6px">更多</navigator></view>
+
+
+
+<view class="jiangtang">
+  <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/12.jpg"></image>
+  <view>省控线与批次线</view>
+</view>
+
+<view class="jiangtang">
+  <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/5.jpg"></image>
+  <view>服从专业调剂</view>
+</view>
+
+<view class="jiangtang">
+  <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/10.jpg"></image>
+  <view>分数线和投档线</view>
+</view>
+
+<view class="jiangtang" style="margin-bottom:40px">
+  <image src="http://staticv2.youzy.cn/imagestob/temp-pic/classrooms/9.jpg"></image>
+  <view>分数清、专业清、专业级差区别</view>
+</view>
+
+<view style="margin-bottom:20px;font:bold;font-size:18px;margin-left:10px;">高考资讯
+<navigator url="/pages/news/news" style="font-size:12px;color:gray;float:right;margin-right:14px;margin-top:6px">更多</navigator></view>
+
+
+
+
+<view class="zixun" >
+ <view class="lef" style="font-size:13px;">文科复习养成这些好习惯才能提分
+ <view style="font-size:12px;color:gray">距离2020年高考只有四十多天了，与理科生拼命刷题式复习不同，像语文、历史与政治等文科科目......</view>
+ </view>
+ <image src="http://img3.youzy.cn/content/media/thumbs/p00241960.jpeg"></image>
+</view>
+ 
+
+
+<view class="zixun" >
+ <view class="lef" style="font-size:13px;">教育部办公厅关于公布实施专科教育高等学校备案名单
+ <view style="font-size:12px;color:gray">距离2020年高考越来越近了，同学们也在做冲刺阶段的最后准备。因此，很多考生......</view>
+ </view>
+ <image src="http://img3.youzy.cn/content/media/thumbs/p00241636.jpeg"></image>
+</view>
+ 
+ <view class="zixun" >
+ <view class="lef" style="font-size:13px;">《未来技术学院建设指南（试行）》的通知
+ <view style="font-size:12px;color:gray">科技飞速发展引发的革命性、颠覆性技术突破正在深刻影响着人们的生产生活方式、社会发展进程......</view>
+ </view>
+ <image src="http://img3.youzy.cn/content/media/thumbs/p00241546.jpeg"></image>
+</view>
+ 
+ <view class="zixun" >
+ <view class="lef" style="font-size:13px;">面向未来教育部试点建设未来技术学院
+ <view style="font-size:12px;color:gray">近日，教育部办公厅印发《未来技术学院建设指南（试行）》（以下简称《建设指南》）。教育部高等......</view>
+ </view>
+ <image src="http://img3.youzy.cn/content/media/thumbs/p00241528.jpeg"></image>
+</view>
+ 

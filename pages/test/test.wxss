@@ -1,0 +1,229 @@
+
+
+image{
+  z-index: 1;
+  height: 120px;
+  width: 95%;
+  border-radius: 4%;
+  margin-left: 8px;
+}
+
+.top{
+  z-index: 100;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+
+.boo{
+  z-index: 10;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.up{
+  z-index: 10;
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  background-color: white;
+  color: pink;
+   width:30px;
+  height:20px;
+ font-size: 13px;
+  text-align: center;
+}
+
+.fin{
+  z-index: 10;
+  position: absolute;
+
+  background-color: pink;
+border-radius:70px;
+  top: 10px;
+  right:8px;
+  font-size: 12px;
+  color: white;
+}
+
+.min{
+  width: 47%;
+  margin-left:5px;
+  height:90px;
+  margin-top: 10px;
+   border-radius: 4%;
+   border: 1px solid gray;
+  float: left;
+  
+}
+
+.min image{
+  height: 90px;
+
+}
+
+.tit1{
+  z-index: 10;
+  position: absolute;
+  font-size: 14px;
+  top: 200px;
+  font-weight: bold;
+  left:6px;
+}
+
+.mon1{
+  z-index: 10;
+  position: absolute;
+  font-size: 12px;
+  top: 220px;
+  color: grey;
+  left:6px;
+}
+
+.icon1{
+  z-index: 10;
+  position: absolute;
+  font-size: 10px;
+  top: 270px;
+  color: grey;
+  left:7px;
+}
+
+.tit2{
+  z-index: 10;
+  position: absolute;
+  font-size: 14px;
+  top: 200px;
+  font-weight: bold;
+  left:190px;
+}
+
+.mon2{
+  z-index: 10;
+  position: absolute;
+  font-size: 12px;
+  top: 220px;
+  color: grey;
+  left:190px;
+}
+
+.icon2{
+  z-index: 10;
+  position: absolute;
+  font-size: 10px;
+  top: 270px;
+  color: grey;
+  left:189px;
+}
+
+.tit3{
+  z-index: 10;
+  position: absolute;
+  font-size: 14px;
+  top: 300px;
+  font-weight: bold;
+  left:6px;
+}
+
+.mon3{
+  z-index: 10;
+  position: absolute;
+  font-size: 12px;
+  top: 320px;
+  color: grey;
+  left:6px;
+}
+
+.icon3{
+  z-index: 10;
+  position: absolute;
+  font-size: 10px;
+  top: 370px;
+  color: grey;
+  left:7px;
+}
+
+.tit4{
+  z-index: 10;
+  position: absolute;
+  font-size: 14px;
+  top: 300px;
+  font-weight: bold;
+  left:190px;
+}
+
+.mon4{
+  z-index: 10;
+  position: absolute;
+  font-size: 12px;
+  top: 320px;
+  color: grey;
+  left:190px;
+}
+
+.icon4{
+  z-index: 10;
+  position: absolute;
+  font-size: 10px;
+  top: 370px;
+  color: grey;
+  left:189px;
+}
+
+.tit5{
+  z-index: 10;
+  position: absolute;
+  font-size: 14px;
+  top: 460px;
+  font-weight: bold;
+  left:6px;
+}
+
+.mon5{
+  z-index: 10;
+  position: absolute;
+  font-size: 12px;
+  top: 480px;
+  color: grey;
+  left:6px;
+}
+
+.icon5{
+  z-index: 10;
+  position: absolute;
+  font-size: 10px;
+  top: 530px;
+  color: grey;
+  left:7px;
+}
+
+.tit6{
+  z-index: 10;
+  position: absolute;
+  font-size: 14px;
+  top: 460px;
+  font-weight: bold;
+  left:190px;
+}
+
+.mon6{
+  z-index: 10;
+  position: absolute;
+  font-size: 12px;
+  top: 480px;
+  color: grey;
+  left:190px;
+}
+
+.icon6{
+  z-index: 10;
+  position: absolute;
+  font-size: 10px;
+  top:530px;
+  color: grey;
+  left:189px;
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "SearchInput": "../../components/SearchInput/SearchInput"
+  },
+  "navigationBarBackgroundColor": "#eb4235",
+  "navigationBarTitleText": "志愿填报专家"
+}

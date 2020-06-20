@@ -1,0 +1,124 @@
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212161.jpeg"></image>
+     <view class="ment">
+     <view class="name" style="margin-left:65px">孙老师
+      
+       <view style="font-size:10px;color:gray;margin-left:165px;margin-top:-18px"> 从业15年</view>
+      </view>
+      
+     <view class="biaoqian">
+      <view class="bq" style="margin-left:5px;width:42px">志愿填报</view>
+      <view class="bq" style="width: 42px;margin-left: 8px;">高招政策</view>
+     
+      <view class="bq" style="   margin-left:8px;width: 42px">学业规划</view>
+     </view>
+        </view>
+</view>
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212356.jpeg"></image>
+     <view class="ment">
+     <view class="name" style="margin-left:65px">杜老师
+      
+       <view style="font-size:10px;color:gray;margin-left:165px;margin-top:-18px"> 从业20年</view>
+      </view>
+      
+     <view class="biaoqian">
+      <view class="bq" style="margin-left:5px;width:42px">志愿填报</view>
+      <view class="bq" style="width: 42px;margin-left: 8px;">高招政策</view>
+      <view class="bq" style="   margin-left: 8px;width:42px">心理咨询</view>
+      <view class="bq" style="   margin-left:8px;width: 42px">学业规划</view>
+     </view>
+        </view>
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212358.jpeg"></image>
+     <view class="ment">
+     <view class="name" style="margin-left:65px">杨老师
+      
+       <view style="font-size:10px;color:gray;margin-left:165px;margin-top:-18px"> 从业15年</view>
+      </view>
+      
+     <view class="biaoqian">
+      <view class="bq" style="margin-left:5px;width:42px">志愿填报</view>
+      <view class="bq" style="width: 42px;margin-left: 8px;">高招政策</view>
+     
+      <view class="bq" style="   margin-left:8px;width: 42px">学业规划</view>
+     </view>
+        </view>
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00213061.jpeg"></image>
+     <view class="ment">
+     <view class="name" style="margin-left:65px">古老师
+      
+       <view style="font-size:10px;color:gray;margin-left:165px;margin-top:-18px"> 从业10年</view>
+      </view>
+      
+     <view class="biaoqian">
+      <view class="bq" style="margin-left:5px;width:42px">志愿填报</view>
+      <view class="bq" style="width: 42px;margin-left: 8px;">高招政策</view>
+      <view class="bq" style="   margin-left: 8px;width:42px">心理咨询</view>
+      <view class="bq" style="   margin-left:8px;width: 42px">学业规划</view>
+     </view>
+        </view>
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212537.jpeg"></image>
+     <view class="ment">
+     <view class="name" style="margin-left:65px">张老师
+      
+       <view style="font-size:10px;color:gray;margin-left:165px;margin-top:-18px"> 从业10年</view>
+      </view>
+      
+     <view class="biaoqian">
+      <view class="bq" style="margin-left:5px;width:42px">志愿填报</view>
+      <view class="bq" style="width: 42px;margin-left: 8px;">高招政策</view>
+      <view class="bq" style="   margin-left: 8px;width:42px">心理咨询</view>
+      <view class="bq" style="   margin-left:8px;width: 42px">学业规划</view>
+     </view>
+        </view>
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00212534.jpeg"></image>
+     <view class="ment">
+     <view class="name" style="margin-left:65px">曹老师
+      
+       <view style="font-size:10px;color:gray;margin-left:165px;margin-top:-18px"> 从业10年</view>
+      </view>
+      
+     <view class="biaoqian">
+      <view class="bq" style="margin-left:5px;width:42px">志愿填报</view>
+      <view class="bq" style="width: 42px;margin-left: 8px;">高招政策</view>
+      <view class="bq" style="   margin-left: 8px;width:42px">心理咨询</view>
+      <view class="bq" style="   margin-left:8px;width: 42px">学业规划</view>
+     </view>
+        </view>
+</view>
+
+<view class="teacher" >
+
+     <image style="margin-left:10px;" src="http://img3.youzy.cn/content/media/thumbs/p00224045.jpeg"></image>
+     <view class="ment">
+     <view class="name" style="margin-left:65px">李老师
+      
+       <view style="font-size:10px;color:gray;margin-left:165px;margin-top:-18px"> 从业10年</view>
+      </view>
+      
+     <view class="biaoqian">
+      <view class="bq" style="margin-left:5px;width:42px">志愿填报</view>
+      <view class="bq" style="width: 42px;margin-left: 8px;">高招政策</view>
+      <view class="bq" style="   margin-left: 8px;width:42px">心理咨询</view>
+      <view class="bq" style="   margin-left:8px;width: 42px">学业规划</view>
+     </view>
+        </view>
+</view>

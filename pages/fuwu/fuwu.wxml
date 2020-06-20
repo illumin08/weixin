@@ -1,0 +1,15 @@
+<import src="template/template.wxml"/>
+
+
+<view>
+
+<block wx:for="{{userData}}" wx:for-item="item" wx:key="key">
+
+<view bindtap="goNewsDetail"  data-newsid="{{item.newsid}}">
+<template  is="newsTemplate" data="{{...item}}"/>
+</view>
+
+</block>
+
+
+</view>

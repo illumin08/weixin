@@ -1,0 +1,7 @@
+
+
+<view class="name">{{name}}</view>
+<view class="de">缩写：{{acronym}}</view>
+<view class="de">类型：{{type}}</view>
+<view class="de">隶属：{{department}}</view>
+<view class="tion">{{description}}</view>

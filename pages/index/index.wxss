@@ -1,0 +1,62 @@
+
+.tit{
+  float: left;
+  width: 20%;
+}
+
+.news{
+  float: left;
+  height: 35px;
+  width: 80%;
+  font-size: 14px;
+}
+
+.icon{
+  float: left;
+  width: 25%;
+  height: 80px;
+  margin-top: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.icon image{
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+}
+
+.vip-t{
+  width: 300px;
+  margin-top:220px; 
+  font-size: 18px;
+  margin-left:5px; 
+}
+
+.vip{
+  float: left;
+  width: 21%;
+  margin-left:9px; 
+  /* border: solid 0px; */
+  margin-top: 10px;
+  height: 28px;
+  border-radius: 7px;
+  text-align: center;
+ 
+}
+
+.teach{
+  height: 80px;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+
+.theme{
+  margin-top: 10px;
+}
+.theme image{
+  height: 140px;
+   margin-top: 15px;
+}

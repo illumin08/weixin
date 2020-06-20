@@ -1,0 +1,278 @@
+
+
+.container {
+  height: 90%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  
+}
+ 
+.title {
+  width: 100%;
+  margin-top: 5px;
+  height: 80rpx;
+  background: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ 
+.title-sel {
+  color: #24272c;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.title-sel  .line-style{
+  background: #fff;
+  height: 6rpx;
+  width: 40rpx;
+  position: relative;
+  margin-top: 10rpx;
+}
+ 
+.title-sel-selected{
+  color: #006bff;
+  font-size: 32rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-sel-selected .line-style{
+  background: #006bff;
+  height: 6rpx;
+  width: 90rpx;
+  position: relative;
+  margin-top: 10rpx;
+}
+ 
+.swiper {
+  width: 95%;
+  flex: 1;
+  height: 520px;
+  font-size: 15px;
+ 
+  overflow: scroll;
+  margin:10px ;
+   margin-left:7px;
+   
+}
+
+
+
+
+.swiper image{
+  z-index: 1;
+  height: 120px;
+  width: 95%;
+  border-radius:25px;
+  margin-left:7px;
+  margin-top: 7px;
+}
+
+.top{
+  z-index: 10;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  color: white;
+}
+
+.boo{
+  z-index: 10;
+  position: absolute;
+  top:60px;
+  left: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.up{
+  z-index: 10;
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  background-color: white;
+  color:pink ;
+  width:30px;
+  height:20px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.cube{
+  height: 110px;
+  background-color: floralwhite;
+  margin-top: 60px;
+ z-index: -1；
+  
+}
+
+.cube view{
+  margin-top: 8px;
+  margin-left: 20px;
+  font-size:16px;
+   z-index: -1；
+}
+
+
+.cu{
+  height: 110px;
+  background-color: floralwhite;
+  margin-top: 60px;
+ z-index: -1；
+  
+}
+
+.cu view{
+  margin-top: 8px;
+  margin-left: 20px;
+  font-size:16px;
+   z-index: -1；
+}
+
+
+
+
+
+.info{
+  height:37px;
+  font-size: 15px;
+  border: 1px solid gainsboro;
+  width: 97%;
+
+  
+}
+
+.tap{
+  background-color:rgba(225, 225, 225, 0.1);
+  width: 20px;
+  float: right;
+  margin-top: -5px;
+  color: gray;
+  font-size: 12px;
+}
+
+
+.product-list {
+ width: 100%;
+ box-sizing: border-box;
+ margin-top: 10px;
+ 
+}
+ 
+ 
+.choice-bar {
+ position: fixed;
+ display: flex;
+ width: 100%;
+ font-size: 14px;
+ background-color: #fff;
+ /**z-index: 0;**/
+}
+
+.chioce-item {
+ background-color: #fff;
+  font-size: 18px;
+ /* display: flex; */
+ align-items: center;
+ justify-content: space-between;
+ padding: 0 20rpx;
+ width: 100%;
+ height:120rpx;
+ /* border-top: 1rpx solid #ddd; */
+ /* border-bottom: 1rpx solid #ddd; */
+ /* border-left: 1rpx solid #ddd; */
+ /*border-right: 1rpx solid #ddd;*/
+}
+ 
+.icon-chioce {
+ height: 30rpx;
+ width: 30rpx;
+ 
+}
+.district-list,.sorting-list,.filter-list {
+ margin-top: 2rpx;
+ position: absolute;
+ top: 80rpx;
+ left: 0;
+ width: 100%;
+ background-color: #fff;
+ z-index: -1;
+ font-size: 14px;
+ border-bottom: 1rpx solid #ddd;
+}
+.chioce-list-hide {
+ display: none !important;
+}
+.chioce-list-show {
+ /**top: 80rpx;**/
+ animation: slide 500ms;
+}
+ 
+.sorting-item {
+ height: 600px;
+ line-height: 80rpx;
+ padding: 0 40rpx;
+ border-bottom: 1rpx solid #ddd;
+
+
+
+}
+
+.for{
+ height:60rpx;
+ 
+  width:93%;
+  /* background-color: #5f9ea0; */
+  background-color:whitesmoke;
+   padding: 10rpx;
+  
+ 
+  
+}
+
+
+
+
+.ap{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-color: #fff;
+  border-radius: 15rpx;
+  color: #666;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.biaoti{
+  width: 8%;
+  float: left;
+  z-index: 100;
+  font-size: 17px;
+}
+
+.item{
+  width: 90%;
+  float: left;
+  z-index: 100;
+  font-size: 17px;
+  background-color: white;
+  height: 700px;
+  }
+
+.my{
+  z-index: 100;
+
+ 
+
+}

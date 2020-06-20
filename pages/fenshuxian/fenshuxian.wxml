@@ -1,0 +1,45 @@
+<view class="w">
+ <image  src="/pages/image/123png.png">
+  <view class="top">分数线</view>
+  <view class="boo">快速查看历年分数线</view>
+ <view class="search_input">
+ <form>
+ <view class="for">
+<input class="ap" type="text" placeholder="请输入" bindinput="name"/>
+</view>
+ </form>
+</view>
+  </image>
+
+<view class="ser">
+   <view style="margin-top:-13px"
+  
+   >
+   
+<view class="table" >
+  <view class="tr bg-w">
+    <view class="th">分类</view>
+    <view class="th">地区</view>
+    <view class="th ">最高分</view>
+    <view class="th ">平均分</view>
+    <view class="th ">最低分</view>
+    <view class="th ">最低位次</view>
+  </view>
+  <block >
+    <view class="tr bg-g" wx:for="{{scoreList}}"
+  wx:key="id" >
+      <view class="td">{{item.sort}}</view>
+       <view class="td">{{item.area}}</view>
+      <view class="td">{{item.maxscore}}</view>
+      <view class="td">{{item.avgscore}}</view>
+      <view class="td">{{item.minscore}}</view>
+      <view class="td">{{item.minrank}}</view>
+    </view>
+    
+  </block>
+</view>
+
+  
+  </view>
+</view>   
+</view>

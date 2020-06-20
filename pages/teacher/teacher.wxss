@@ -1,0 +1,46 @@
+.teacher{
+  width: 100%;
+  height:80px;
+  margin-top: 0px;
+  border: 1px solid gainsboro;
+}
+
+.teacher image {
+  width: 15%;
+  height: 50px;
+  border-radius: 25px;
+  float: left;
+  margin-left: 10PX;
+  margin-top:15px;
+}
+
+.ment{
+  width: 85%;
+   margin-top:15px;
+}
+
+
+.name{
+  font-size:15px;
+  border: none;
+  font: bold;
+  margin-left: 40px;
+ 
+}
+
+.bq {
+  float: left;
+  background-color: white;
+   
+   font-size: 10px;
+   border-radius: 45px;
+   border: 1px solid gray;
+   padding: 1px;
+    height: 15px;
+    margin-top:17px
+  
+       }
+
+.biaoqian{
+  width: 100%;
+}

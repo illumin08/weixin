@@ -1,0 +1,22 @@
+<import src="news-template/news-template.wxml"/>
+
+
+<view>
+<swiper autoplay="{{autoplay}}" interval="{{interval}}" circular="{{circular}}" indicator-dots="{{indicatorDots}}">
+ <swiper-item> <image  style="width:100%" mode="widthFix"src="http://img3.youzy.cn/content/media/thumbs/p00241960.jpeg" /></swiper-item>
+ <swiper-item><image   style="width:100%"  src="http://img3.youzy.cn/content/media/thumbs/p00241636.jpeg" /></swiper-item>
+ <swiper-item><image  style="width:100%" src="http://img3.youzy.cn/content/media/thumbs/p00241528.jpeg" /></swiper-item> 
+</swiper>
+
+
+
+<block wx:for="{{userData}}" wx:for-item="item" wx:key="key">
+
+<view bindtap="goNewsDetail"  data-newsid="{{item.newsid}}">
+<template  is="newsTemplate" data="{{...item}}"/>
+</view>
+
+</block>
+
+
+</view>

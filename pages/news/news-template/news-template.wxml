@@ -1,0 +1,16 @@
+<template name="newsTemplate">
+ <view class="articlelist">
+<view class="author-time">
+
+</view>
+   <text class="title">{{title}}</text>
+   <image class="articlrimg" src="{{articleImg}}"></image>
+   <text class="articletext">{{articleminText}}</text>
+   <view class="article-like">
+   <image class="article-like-icon" src="../image/_sc.png"></image>
+   <text  class="article-like-text">{{articleLikeComment}}</text>
+   <image  class="article-like-icon" src="../image/fx.png"></image>
+ <text class="article-like-text">{{articleLikeSC}}</text>
+   </view>
+</view>
+</template>

@@ -1,0 +1,16 @@
+<view class="w">
+ <image  src="/pages/image/123png.png">
+  <view class="top">招生计划</view>
+  <view class="boo">大学当年招生计划查询，与考试院同步</view>
+  
+ <view class="search_input">
+ <form>
+  <button style="width:300px;height:40px"> 搜索</button>
+ </form>
+</view>
+  </image>
+
+<view class="ser">
+   <view style="margin-top:25px">查询记录</view>
+</view>   
+</view>

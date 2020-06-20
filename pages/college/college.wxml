@@ -1,0 +1,63 @@
+
+<view class="for">
+<input class="ap" type="text" placeholder="请输入学校名" bindinput="name"/>
+</view>
+
+
+
+
+<!-- <view >
+  <view class="school-info"
+  wx:for="{{schList}}"
+  wx:key="scid"
+  >
+   <view class="index-cate" >
+    <image src="http://img1.youzy.cn/content/media/thumbs/p00189371.jpeg" mode="aspectFit"></image>
+          <view class="school-info-style">
+              <view  style="font-size:20px:float:left">{{item.name}}
+
+              <view class="list">
+              <view hidden="{{item.is985!=985 ? true : false}}"> 985 </view>
+              <view style="" hidden="{{item.is211!=211 ? true : false}}"> 211 </view>
+              <view style=" " hidden="{{item.isDoubleFirstClass!=1 ? true : false}}"> 双一流 </view>
+            </view>
+            </view>  
+          
+            <view style="color:gray">\n{{item.type}}/{{item.department}}/{{item.areaname}}</view>
+           
+</view>   
+                         
+   </view>
+
+  </view>
+</view> -->
+
+
+
+
+
+<view >
+  <view class="school-info"
+  wx:for="{{schoolList}}"
+  wx:key="scid"
+  >
+   <view class="index-cate" >
+    <image src="http://img1.youzy.cn/content/media/thumbs/p00189371.jpeg" mode="aspectFit"></image>
+          <view class="school-info-style">
+              <view  style="font-size:20px:float:left">{{item.name}}
+
+              <view class="list">
+              <view hidden="{{item.is985!=985 ? true : false}}"> 985 </view>
+              <view style="" hidden="{{item.is211!=211 ? true : false}}"> 211 </view>
+              <view style=" " hidden="{{item.isDoubleFirstClass!=1 ? true : false}}"> 双一流 </view>
+            </view>
+            </view>  
+          
+            <view style="color:gray">\n{{item.type}}/{{item.department}}/{{item.areaname}}</view>
+           
+</view>   
+                         
+   </view>
+
+  </view>
+</view>

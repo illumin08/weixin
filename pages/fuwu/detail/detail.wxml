@@ -1,0 +1,10 @@
+<image style="width:100%" src="{{image}}"></image>
+<view style="font-size：18px;">{{title}}</view>
+<view style="font-size：18px;color:red">{{art}}</view>
+
+<view style="border-top: 1rpx solid #ddd;margin-top:20px;font-size:16px">服务介绍</view>
+<view style=";font-size:16px">{{Text}}</view>
+
+<input class="tele" type="text" placeholder="请输入电话"></input>
+<input class="bt" type="button" value="电话咨询" style="border: 1rpx solid red;color:red">电话咨询</input>
+<input class="bt" type="button"  value="立即购买" style="color:white;background-color:red;border: 1rpx solid red">立即购买</input>
